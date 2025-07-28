@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background: url('https://upload.wikimedia.org/wikipedia/en/e/e0/Iron_Man_bleeding_edge.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#status {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1.5rem;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+#chat-box {
+  position: absolute;
+  bottom: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  max-width: 600px;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 10px;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+#start-btn {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 15px 30px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 30px;
+  background-color: rgba(255, 0, 0, 0.8);
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 0 10px red;
+  transition: 0.3s;
+}
+
+#start-btn:hover {
+  background-color: rgba(255, 0, 0, 1);
+  box-shadow: 0 0 20px red;
+}
